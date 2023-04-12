@@ -1,0 +1,144 @@
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+p {
+  font-family: 'Roboto Flex', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Flex', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.main-wrap {
+  background-color: #303E47;
+  padding: 3rem 4rem;
+}
+
+.head-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.head-box h1 {
+  color: #FF5959;
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+.head-box p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.head-box img {
+  width: 120px;
+}
+
+.orng-bg {
+  background-color: #FF9B1D;
+  padding: 30px 40px;
+}
+
+.blue-bg {
+  background-color: #00B2E2;
+  padding: 30px 40px;
+}
+
+.red-bg {
+  background-color: #FF5959;
+  padding: 30px 40px;
+}
+
+.ht-3 {
+  line-height: 3;
+}
+
+.ht-2 {
+  line-height: 2;
+}
+
+h4 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .flx-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  .head-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .head-box img {
+    margin: auto;
+  }
+  .r-img {
+    width: 62px;
+  }
+  .ht-3 {
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-wrap {
+    padding: 3rem 1rem;
+  }
+  .m-img {
+    width: 100px;
+    margin: auto;
+  }
+  .bot-img {
+    width: 200px;
+    margin: auto;
+  }
+  .txt-cen {
+    text-align: center !important;
+  }
+  .orng-bg .flx-col,
+  .blue-bg .flx-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ht-3 {
+    width: 400px;
+    line-height: unset;
+  }
+}
+/*# sourceMappingURL=style.css.map */

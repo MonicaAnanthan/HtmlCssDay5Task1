@@ -1,0 +1,127 @@
+$bg-color: #303E47;
+$red : #FF5959;
+$orange: #FF9B1D;
+$blue: #00B2E2;
+$white: #ffffff;
+$black : #000000;
+
+html,
+body{
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto Flex', sans-serif;
+} 
+p{
+    font-family: 'Roboto Flex', sans-serif;
+    color: $white;
+    font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Flex', sans-serif;
+    color: $white;
+    font-weight: 600;
+}
+.main-wrap{
+    background-color:$bg-color ;
+    padding: 3rem 4rem;
+}
+.head-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    h1{
+        color: $red;
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 800;
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    img{
+        width: 120px;
+    }
+}
+
+.orng-bg{
+    background-color: $orange;
+    padding: 30px 40px;
+}
+.blue-bg{
+    background-color: $blue;
+    padding: 30px 40px;
+}
+.red-bg{
+    background-color: $red;
+    padding: 30px 40px;
+}
+.ht-3{
+    line-height: 3;
+}
+.ht-2{
+    line-height: 2;
+}
+h4{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+img{
+    max-width: 100%;
+}
+
+// Responsive // 
+@media screen and (max-width:600px){
+    .flx-col{
+        flex-direction: column;
+    }
+    h4{
+        font-size: 2rem;
+    }
+    .head-box{
+        justify-content: center;
+        text-align: center;
+        img{
+            margin: auto;
+        }
+    }
+    .r-img{
+        width: 62px;
+    }
+    .ht-3 {
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width:992px){
+    .main-wrap{
+        padding: 3rem 1rem;
+    }
+    .m-img{
+        width: 100px;
+        margin: auto;
+    }
+    .bot-img{
+        width: 200px;
+        margin: auto;
+    }
+    .txt-cen{
+        text-align: center !important;
+    }
+    .orng-bg,
+    .blue-bg{
+        .flx-col{
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .ht-3{
+        width: 400px;
+        line-height: unset;
+    }
+}
